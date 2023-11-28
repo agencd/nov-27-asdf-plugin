@@ -1,0 +1,4 @@
+ssh -i "~/.ssh/id_ed25519" ec2-user@34.199.50.118
+ssh-keygen -R 34.199.50.118
+ps -ef | grep 2243
+sudo kill 2243
